@@ -1,10 +1,10 @@
-# wxBot [![star this repo](http://github-svg-buttons.herokuapp.com/star.svg?user=liuwons&repo=wxBot&style=flat&background=1081C1)](http://github.com/liuwons/wxBot) [![fork this repo](http://github-svg-buttons.herokuapp.com/fork.svg?user=liuwons&repo=wxBot&style=flat&background=1081C1)](http://github.com/liuwons/wxBot/fork) ![python](https://img.shields.io/badge/python-2.7-ff69b4.svg)
+# wxBot [![star this repo](http://github-svg-buttons.herokuapp.com/star.svg?user=liuwons&repo=wxBot&style=flat&background=1081C1)](http://github.com/liuwons/wxBot) [![fork this repo](http://github-svg-buttons.herokuapp.com/fork.svg?user=liuwons&repo=wxBot&style=flat&background=1081C1)](http://github.com/liuwons/wxBot/fork) ![python](https://img.shields.io/badge/python-2.7-ff69b4.svg) ![python](https://img.shields.io/badge/python-3.5-ff69b4.svg)
 
 Python包装Web微信实现的微信机器人框架。可以很容易地实现微信机器人。
 
 ## 环境与依赖
 
-目前只能运行于Python 2环境 。
+目前只能运行于Python 2环境 本分支添加对python3支持。
 **wxBot** 用到了Python **requests** 和 **pyqrcode** 库，使用之前需要安装这两个库:
 
 ```bash
