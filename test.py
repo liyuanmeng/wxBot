@@ -2,7 +2,11 @@
 # coding: utf-8
 
 import time
-from wxbot import *
+import sys
+if sys.version_info.major > 2:
+    from wxbot3 import *
+else:
+    from wxbot import *
 
 class MyWXBot(WXBot):
     def handle_msg_all(self, msg):
