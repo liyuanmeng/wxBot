@@ -25,7 +25,11 @@ handle_msg_all函数用于处理收到的每条消息，而schedule函数可以�
 # coding: utf-8
 
 import time
-from wxbot import *
+import sys
+if sys.version_info.major > 2:
+    from wxbot3 import *
+else:
+    from wxbot import *
 
 class MyWXBot(WXBot):
     def handle_msg_all(self, msg):
